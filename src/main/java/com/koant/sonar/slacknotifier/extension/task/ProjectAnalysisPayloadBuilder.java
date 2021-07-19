@@ -95,7 +95,7 @@ class ProjectAnalysisPayloadBuilder {
         assertNotNull(i18n, "i18n");
         assertNotNull(analysis, "analysis");
 
-        final String notifyPrefix = isNotBlank(projectConfig.getNotify()) ? format("<!%s> ", projectConfig.getNotify()) : "";
+        final String notifyPrefix = isNotBlank(projectConfig.getNotify()) ? format("<%s> ", projectConfig.getNotify()) : "";
 
         final QualityGate qualityGate = analysis.getQualityGate();
         final StringBuilder shortText = new StringBuilder();

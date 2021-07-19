@@ -29,9 +29,9 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git@github.com:sleroy/sonar-slack-notifier-plugin.git</connection>
-    <url>scm:git:git@github.com:sleroy/sonar-slack-notifier-plugin.git</url>
-    <developerConnection>scm:git:git@github.com:sleroy/sonar-slack-notifier-plugin.git</developerConnection>
+    <connection>scm:git:git@github.com:anton-bogza-altium/sonar-slack-notifier-plugin.git</connection>
+    <url>scm:git:git@github.com:anton-bogza-altium/sonar-slack-notifier-plugin.git</url>
+    <developerConnection>scm:git:git@github.com:anton-bogza-altium/sonar-slack-notifier-plugin.git</developerConnection>
   </scm>
   
 
@@ -143,11 +143,11 @@
           <pluginName>Sonar Slack Notifier</pluginName>
           <pluginDescription>Sends notifications to Slack</pluginDescription>
           <sonarQubeMinVersion>8.0</sonarQubeMinVersion>
-          <pluginUrl>https://github.com/sleroy/sonar-slack-notifier-plugin</pluginUrl>
-          <pluginIssueTrackerUrl>https://github.com/sleroy/sonar-slack-notifier-plugin/issues</pluginIssueTrackerUrl>
-          <pluginSourcesUrl>https://github.com/sleroy/sonar-slack-notifier-plugin</pluginSourcesUrl>
-          <pluginOrganizationName>Sylvain Leroy</pluginOrganizationName>
-          <pluginOrganizationUrl>https://github.com/sleroy</pluginOrganizationUrl>
+          <pluginUrl>https://github.com/anton-bogza-altium/sonar-slack-notifier-plugin</pluginUrl>
+          <pluginIssueTrackerUrl>https://github.com/anton-bogza-altium/sonar-slack-notifier-plugin/issues</pluginIssueTrackerUrl>
+          <pluginSourcesUrl>https://github.com/anton-bogza-altium/sonar-slack-notifier-plugin</pluginSourcesUrl>
+          <pluginOrganizationName>Anton Bogza</pluginOrganizationName>
+          <pluginOrganizationUrl>https://github.com/anton-bogza-altium</pluginOrganizationUrl>
         </configuration>
       </plugin>
     </plugins>

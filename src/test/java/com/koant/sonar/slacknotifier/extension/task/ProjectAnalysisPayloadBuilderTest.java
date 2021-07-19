@@ -193,7 +193,7 @@ public class ProjectAnalysisPayloadBuilderTest {
             .projectUrl("http://localhost:9000/dashboard?id=project:key")
             .username("CKSSlackNotifier")
             .build();
-        Assert.assertEquals(String.format("<!%s> Project [Sonar Project Name] analyzed. See " +
+        Assert.assertEquals(String.format("<%s> Project [Sonar Project Name] analyzed. See " +
                                               "http://localhost:9000/dashboard?id=project:key.",
             notify), payload.getText());
     }
